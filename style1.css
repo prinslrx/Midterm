@@ -7,7 +7,7 @@
   text-align: center;
 }
 .logo {
-  width: 120px; /* Slightly reduced from 140px */
+  width: 120px; 
   height: 120px;
   object-fit: cover;
   border-radius: 50%;
@@ -58,7 +58,7 @@
   margin-bottom: 10px;
 }
 body {
-  background-color: #e0e0e0; /* Light gray background */
+  background-color: #e0e0e0; 
   margin: 0;
   font-family: Arial, sans-serif;
 }
