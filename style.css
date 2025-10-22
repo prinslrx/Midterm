@@ -6,7 +6,7 @@ body {
  display: flex;
  justify-content: center;
  align-items: center;
- background: url("ctu.jpg") no-repeat center center/cover;
+ background: url("ctu.png") no-repeat center center/cover;
 }
 .login-container {
  background: rgba(255, 255, 255, 0.15);
