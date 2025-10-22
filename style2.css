@@ -71,16 +71,16 @@ body {
  background-color: white;
 }
 .edsel-card {
- background-image: url('edsel.jpg');
+ background-image: url('edsel.png');
 }
 .lgu-card {
- background-image: url('lgu.jpg');
+ background-image: url('lgu.png');
 }
 .stanley-card {
- background-image: url('stanley.jpg');
+ background-image: url('stanley.png');
 }
 .landbank-card {
- background-image: url('landbank.jpg');
+ background-image: url('landbank.png');
 }
 .image__src {
  width: 120px;
