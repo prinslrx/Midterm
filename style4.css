@@ -1,0 +1,131 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #e6e6e6 url("https://www.ciaalliance.com/wp-content/uploads/sites/6/sites/6/2023/08/CIAA-Contact-Us.jpg") no-repeat center center fixed;
+  background-size: cover; /* makes image fill the page */
+}
+
+header {
+  background: rgba(85, 85, 85, 0.9);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+nav a:hover, .active {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  background: rgba(85, 85, 85, 0.9);
+  color: white;
+  padding: 10px 0;
+  margin-top: 30px;
+}
+
+/* === CONTACT PAGE STYLES === */
+.contact-container {
+  max-width: 900px;
+  margin: 40px auto;
+  border-radius: 15px;
+  padding: 40px;
+  color: #333;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+
+  /* Transparent box over image */
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(6px);
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-header h2 {
+  color: #333333;
+  font-size: 1.8em;
+}
+
+.contact-header p {
+  color: #555;
+}
+
+/* contact info */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.contact-info p {
+  font-size: 1.1em;
+  background: rgba(240, 240, 240, 0.8);
+  padding: 10px 15px;
+  border-radius: 8px;
+  width: 80%;
+  text-align: center;
+}
+
+/* form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 1em;
+  outline: none;
+  transition: 0.3s;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #777;
+  box-shadow: 0 0 5px rgba(85,85,85,0.3);
+}
+
+.contact-form button {
+  background: #808080;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1em;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #666666;
+}
+
+/* === RESPONSIVE DESIGN === */
+@media (max-width: 600px) {
+  .contact-container {
+    padding: 20px;
+  }
+
+  .contact-info p {
+    width: 100%;
+  }
+}
+
+
