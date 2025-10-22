@@ -1,61 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Exercise 2</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>List of Available Scholarships</title>
   <link rel="stylesheet" href="../css/style2.css">
 </head>
 <body>
-    <nav>
-        <a href="./hgvgv.html">Home</a>
-        <a href="./about.html" class="active">About</a>
-        <a href="./scholarships.html">Scholarships</a>
-        <a href="./apply.html">Apply</a>
-        <a href="./contact.html">Contact</a>
-    </nav>
-  <section class="container">
-    <header>Register Form</header>
-    <form action="submit.php" method="POST" class="form">
-      <div class="input-box">
-        <label for="first-name">First Name</label>
-        <input type="text" id="first-name" name="first_name" placeholder="Enter First Name" required />
-      </div>
+  <div class="card-container">
 
-      <div class="input-box">
-        <label for="last-name">Last Name</label>
-        <input type="text" id="last-name" name="last_name" placeholder="Enter Last Name" required />
-      </div>
+    <div class="card edsel-card">
+      <img class="image__src" src="edsel.png" alt="Scholarship 1">
+      <h2>TDP 3.1 SCHOLARSHIP</h2>
+      <p class="sponsor">Sponsor: Cong. Edsel Amatong Galeos</p> 
+      <button>View Details</button>
+    </div>
 
-      <div class="column">
-        <div class="input-box">
-          <label for="gender">Gender</label>
-          <select id="gender" name="gender" required>
-            <option value="" hidden>Select Gender</option>
-            <option value="female">Female</option>
-            <option value="male">Male</option>
-          </select>
-        </div>
+    <div class="card lgu-card">
+      <img class="image__src" src="lgu.png" alt="Scholarship 2">
+      <h2>E-ATESAP SCHOLARSHIP</h2>
+      <p class="sponsor">Sponsor: Local Government Unit ARGAO</p>
+      <button>View Details</button>
+    </div>
 
-        <div class="input-box">
-          <label for="dob">Date of Birth</label>
-          <input type="date" id="dob" name="dob" required />
-        </div>
-      </div>
+    <div class="card stanley-card">
+      <img class="image__src" src="stanley.png" alt="Scholarship 3">
+      <h2>CP GIFTS SCHOLARSHIP</h2>
+      <p class="sponsor">Sponsor: Doc. Stanley Caminero</p>
+      <button>View Details</button>
+    </div>
 
-      <div class="input-box">
-        <label for="email">Email Address</label>
-        <input type="email" id="email" name="email" placeholder="Enter Email" required />
-      </div>
+    <div class="card landbank-card">
+      <img class="image__src" src="landbank.png" alt="Scholarship 4">
+      <h2>ISKOLAR NG LANDBANK</h2>
+      <p class="sponsor">Sponsor: LandBank Company</p>
+      <button>View Details</button>
+    </div>
 
-      <div class="input-box">
-        <label for="scholarship">Scholarship</label>
-        <input type="text" id="scholarship" name="scholarship" placeholder="Enter Scholarship Applying for" required />
-      </div>
-
-      <button type="submit">Register</button>
-    </form>
-  </section>
+  </div>
 </body>
 </html>
