@@ -1,48 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>About Us</title>
-	<link rel="stylesheet" href="../css/style1.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Scholarship Portal</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-	<nav>
-    	<a href="./hgvgv.html">Home</a>
-   		<a href="./about.html" class="active">About</a>
-    	<a href="./scholarships.html">Scholarships</a>
-    	<a href="./apply.html">Apply</a>
-    	<a href="./contact.html">Contact</a>
-  	</nav>
-	<div class="shape top-left"></div>
-	<div class="shape bottom-right"></div>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="scholarships.html">Scholarships</a>
+      <a href="apply.html">Apply</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
 
-	<main>
-		<div class="logo-container">
-    		<img src="ctu.png" alt="Organization Logo" class="logo">
-    		<p class="logo-caption">Cebu Technological University</p>
-		</div>
+  <section class="contact-container">
+    <div class="contact-header">
+      <h2>We’d Love to Hear From You</h2>
+      <p>Have questions about scholarships or applications? Reach us anytime!</p>
+    </div>
 
+    <div class="contact-info">
+      <p><strong>Email:</strong> ctuargao@gmail.com</p>
+      <p><strong>Phone:</strong> 0987-465-5321</p>
+      <p><strong>Address:</strong> Cebu Technological University - Argao Campus</p>
+    </div>
 
-		<section class="content-section">
-			<h2>Our Purpose</h2>
-			<p>Our purpose is to support students through accessible scholarship information. We aim to provide a platform where students can easily find and apply for scholarships, making higher education more accessible and affordable.</p>
-		</section>
+    <form class="contact-form" onsubmit="return sendMessage()">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message..." required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
 
-		<section class="content-section">
-			<h2>Our Mission</h2>
-			<p>Our mission is to empower students by providing them with the necessary tools to achieve their academic goals. We strive to make a positive impact on the lives of students and contribute to the development of a more educated and skilled society.</p>
-		</section>
+  <footer>
+    <p>© 2025 Scholarship Information System | Cebu Technological University</p>
+  </footer>
 
-		<section class="content-section">
-			<h2>Our Values</h2>
-			<ul>
-				<li><strong>Accessibility:</strong> We believe that scholarship information should be easily accessible to all students.</li>
-				<li><strong>Transparency:</strong> We strive to provide clear and accurate information about scholarships and the application process.</li>
-				<li><strong>Empowerment:</strong> We aim to empower students to take control of their academic careers and make informed decisions.</li>
-			</ul>
-		</section>
-	</main>
+  <script>
+    function sendMessage() {
+      alert("Thank you for contacting us! We’ll get back to you soon.");
+      return false; // prevents page reload
+    }
+  </script>
 </body>
 </html>
